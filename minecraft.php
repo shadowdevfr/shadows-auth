@@ -23,7 +23,7 @@ if (isset($_GET["err"])) {
 	<i>Sachez qu'un code expire toutes les <b>5 minutes</b></i>
 	<h2>Je me suis connecté mais je ne trouve pas le code...</h2>
 	<p>Le code ce situe dans le message lorsque vous vous connectez:</p>
-	<img src="https://i.imgur.com/x8AasbK.png" width="100%" />
+	<img src="https://i.imgur.com/DmePnKB.png" width="100%" />
 	<br/><br/>
 	<p><i>La méthode de connexion utilisée pour Minecraft est fournie par <a href="https://mc-oauth.net/">mc-oauth.net</a>.</i></p>
 </center>
