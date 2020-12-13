@@ -34,7 +34,7 @@ if ($type=="wol") {
 	$_SESSION["username"] = $_SESSION["wol_name"];
 	$_SESSION["uuid"] = $_SESSION["wol_uuid"];
 	$pic = $_SESSION["wol_pic"];
-	$_SESSION["pic"] = "https://www.shadowdev.ga/d1/cdn/public/wolfer/assets/all/$pic";
+	$_SESSION["pic"] = "";
 }
 if($type=="discord") {
 	$_SESSION["username"] = $_SESSION["dc_name"];

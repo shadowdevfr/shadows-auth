@@ -23,15 +23,15 @@ $appID = rand(9999999999999999, 1000000000000000);
 <br/><br/>
 <h5>Étape 2: L'URL</h5>
 <p>Une URL Shadow's Auth se présente comme ça:</p>
-<code>https://shadow.conectapp.mx/public/ask?redurl=-[URL DE REDIRECTION]-&appID=-[ID DE L'APP]-&force=-[FORCE]-</code>
+<code>https://shadows-auth.herokuapp.com/public/ask?redurl=-[URL DE REDIRECTION]-&appID=-[ID DE L'APP]-&force=-[FORCE]-</code>
 <p>redurl : Url ou l'utilisateur sera redirigé après avec les arguments GET PHP: ?username=[NOM D'UTILISATEUR]&uuid=[UUID]&pic=[URL DE L'IMAGE DE PROFIL]</p>
 <p>appID : ID d'application fourni ci-dessus</p>
 <p>force : Type de force appliqué (Nom d'application ou false si l'utilisateur choisis par lui même) Arguments: mc | wolfer | false</p>
 <br/><br/>
 <h5>Démo</h5>
 <p>Minecraft:</p>
-<code>https://shadow.conectapp.mx/public/ask?redurl=https://shadow.conectapp.mx/demo/ok&appID=197744154489479879781&force=mc</code>
+<code>https://shadows-auth.herokuapp.com/public/ask?redurl=https://shadows-auth.herokuapp.com/demo/ok&appID=197744154489479879781&force=mc</code>
 <br/>
 <p><b>NOUVEAU! </b>Wolfer: </b></p>
-<code>https://shadow.conectapp.mx/public/ask?redurl=https://shadow.conectapp.mx/demo/ok&appID=197744154454498499494&force=wolfer</code>
+<code>https://shadows-auth.herokuapp.com/public/ask?redurl=https://shadows-auth.herokuapp.com/demo/ok&appID=197744154454498499494&force=wolfer</code>
 <br/>
